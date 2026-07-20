@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <title>Campo Alegre</title>
+</head>
+
+
+
+<body>
+
+
+    <main class="container">
+
+        <!------------   cabecera --------- -->
+        <header>
+            <img src="/img/tractor3.jpg" alt="campo">
+        </header>
+
+
+
+        <!------------   barra de navegacion --------- -->
+        <nav class="container2">
+            <ul class="logo">
+                <li class="logo1">
+                    <a href="#cero">
+                        <img src="/img/log.png" alt="logo">
+                    </a>
+                </li>
+            </ul>
+
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <span class="material-symbols-outlined">menu</span>
+            </label>
+
+
+            <ul class="menu">
+                <li class="enlace"><a href="#uno"> Inicio </a></li>
+                <li class="enlace"><a href="#dos"> Ofertas </a></li>
+                <li class="enlace"><a href="#tres"> Verduras y Legumbres </a></li>
+                <li class="enlace"><a href="#cuatro"> Frutas y bebidas </a></li>
+                <li class="enlace"><a href="#cinco"> Limpieza </a></li>
+            </ul>
+
+
+
+            <ul class="carrito">
+                <li>
+                    <a href="#carrito" class="link-carrito">
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                        <span class="contador-carrito">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+
+
+        <!------------  ARTICULOS DESTACADOS  --------- -->
+
+
+
+        <div id="cero" class="slider-viewport">
+            <figure>
+
+
+                <div class="slide-item">
+                    <a href="producto1.html">
+                        <h1>Articulo Recomendado</h1>
+                        <img src="img/mac.PNG" alt="matcha">
+                    </a>
+                </div>
+
+
+                <div class="slide-item">
+                    <a href="producto2.html">
+                        <h1> Combo de año nuevo </h1>
+                        <img src="img/proma.PNG" class="promo" alt="promo">
+                    </a>
+                </div>
+
+
+            </figure>
+        </div>
+
+
+        <div class="separador">
+        </div>
+
+
+
+
+        <!------------ -----------------------------------------
+                    CATEGORIAS    ARTICULOS   
+        --------------------------------------------------- -->
+
+        <section id="uno" class="contenedorflex">
+
+            <div class="gallery-item">
+                <a href="#dos">
+                    <img src="/img/ofert.jpg" alt="Ofertas">
+                </a>
+                <div class="desc">Ofertas</div>
+            </div>
+
+
+
+            <div class="gallery-item">
+                <a href="#tres">
+                    <img src="/img/verdu.jpg" alt="Verduras">
+                </a>
+                <div class="desc">Verduras y Legumbres</div>
+            </div>
+
+
+
+            <div class="gallery-item">
+                <a href="#cuatro">
+                    <img src="/img/bebida.jpg" alt="Bebidas">
+                </a>
+                <div class="desc">Frutas y Bebidas</div>
+            </div>
+
+
+            <div class="gallery-item">
+                <a href="#cinco">
+                    <img src="/img/jabon.jpg" alt="Limpieza">
+                </a>
+                <div class="desc">Limpieza</div>
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-----------------------------  PRODUCTOS --------------------->
+
+        <!--================================================================    
+                                    GRUPO 1
+        ===========================================================-->
+
+
+
+
+        <div class="separador" id="dos">  </div>
+
+
+        <div class="titulo">
+            <h1>Nuestras Ofertas</h1>
+        </div>
+
+        <div class="grupo1">
+
+
+            <div class="galeria" data-precio="2.50">
+                <img src="/img/verd/promo.jpg" alt="promo">
+                <div class="desc">
+                    Gran Combo Navideño de Jamón Reserva 100%, vino solar, queso de oveja y  embutido.
+                </div>
+                <p>Precio: $102,50</p>
+
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+
+            </div>
+
+
+            <div class="galeria" data-precio="1.5">
+                <img src="/img/macha.png" alt="Matcha">
+                <div class="desc">Té Matcha, ofrece alta concentración de antioxidantes y
+                    nutrientes. </div>
+                <p class="precio">€1,5</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="20">
+                <img src="/img/verd/jamo.PNG" alt="jamon">
+                <div class="desc">Combo Jamón cebo 100% bell cuch 80g ECO Beher </div>
+                <p class="precio">€20</p>
+
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="12.50">
+                <img src="/img/verd/1.PNG" alt="vino">
+                <div class="desc">Vino blanco Viña Sol 750ml ECO Viña Sol</div>
+                <p>Precio: €12,50</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="12.50">
+                <img src="/img/verd/2a.PNG" alt="Barquillos">
+                <div class="desc">Barquillos 100g (25u) ECO Espec. Veritas</div>
+                <p>Precio:€12,50</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="9">
+                <img src="/img/verd/queso.PNG" alt="Barquillos">
+                <div class="desc">Queso Cabra Garrocha Garet 440g ECO Mas Garet</div>
+                <p>Precio: €9</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="2">
+                <img src="/img/verd/11.PNG" alt="NaturGreen">
+                <div class="desc">Eritritol 500g ECO NaturGreen</div>
+                <p>Precio: €2</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="3">
+                <img src="/img/verd/3.PNG" alt="chocolate">
+                <div class="desc">Chocolate negro nougat 80g ECO Vivani</div>
+                <p>Precio: €3</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+
+            <div class="galeria" data-precio="8">
+                <img src="/img/verd/5.PNG" alt="paneton">
+                <div class="desc"> Panettone 730g ECO Espec. Veritas</div>
+                <p>Precio: €8</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="5">
+                <img src="/img/verd/6.PNG" alt="cacahue">
+                <div class="desc"> Xmasbox crem cacahue nuec 156g ECO</div>
+                <p>Precio: €5</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="5">
+                <img src="/img/verd/7o.PNG" alt="Bebida Almendra">
+                <div class="desc">Bebida Almendra sin azúcar 1l ECO Monsoy</div>
+                <p>Precio: €5</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="0.85">
+                <img src="/img/fruta/8.PNG" alt="manzana">
+                <div class="desc">Manzana Royal Gala Granel ECO Cataluña</div>
+                <p>Precio: €0,85 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="1.25">
+                <img src="/img/verd/9.PNG" alt="bebidas">
+                <div class="desc">Bebida 3 frutos secos 1l ECOIsola Bio</div>
+                <p>Precio: €1,25 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="3.50">
+                <img src="/img/verd/4.PNG" alt="chocolate">
+                <div class="desc"> Chocolat perú 81% s/azu 75g ECOBlanxart</div>
+                <p>Precio: €3,50 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="2.50">
+                <img src="/img/verd/12.PNG" alt="Granero">
+                <div class="desc">
+                    Mijo hinchado 100g ECO El Granero Integral
+                </div>
+                <p>Precio: €2,50 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="2.50">
+                <img src="/img/verd/11.PNG" alt="NaturGreen">
+                <div class="desc"> Eritritol 500g ECO NaturGreen </div>
+                <p>Precio: €2,50</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+        <!--======================================== =======================================
+                                       GRUPO 3
+============================================ ======================================-->
+        <div class="separador" id="tres"> </div>
+
+
+        <div class="titulo">
+            <h1>Verduras y Legumbres</h1>
+        </div>
+
+
+        <div class="grupo2">
+
+
+
+            <div class="galeria" data-precio="4.50">
+                <img src="/img/verd/8a.PNG" alt="aguacate">
+                <div class="desc"> Aguacate Granel ECO</div>
+                <p>Precio: €4,50 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+
+            <div class="galeria" data-precio="2.50">
+                <img src="/img/verd/104.jpg" alt="boniato">
+                <div class="desc">Boniato Granel ECO</div>
+                <p>Precio: €2,50 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+
+            <div class="galeria" data-precio="3.50">
+                <img src="/img/verd/Captura.PNG" alt="manojo">
+                <div class="desc"> Calçot manojo 15 unidades ECO</div>
+                <p>Precio: €3,50 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+
+            <div class="galeria" data-precio="1.10">
+                <img src="/img/verd/1a.PNG" alt="Pepino">
+                <div class="desc">Pepino francés Granel ECO</div>
+                <p>Precio: €1,10 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="1.10">
+                <img src="/img/verd/2566a.PNG" alt="Coliflor">
+                <div class="desc">Coliflor unidad ECO</div>
+                <p>Precio: €1,10 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="0.80">
+                <img src="/img/verd/fua.PNG" alt="judia">
+                <div class="desc">Judía verde Granel ECO </div>
+                <p>Precio: €0,80 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="1.80">
+                <img src="/img/verd/192.jpg" alt="tomate">
+                <div class="desc">Bandeja de Tomate Cherry Pera 250g E ECO </div>
+                <p>Precio: €1,80 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="1.40">
+                <img src="/img/verd/2.png" alt="calabazin">
+                <div class="desc">Calabacín Granel ECO </div>
+                <p>Precio: €1,40 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="1.20">
+                <img src="/img/verd/87.PNG" alt="espinaca">
+                <div class="desc">Espinacas Manojo 350g ECO</div>
+                <p>Precio: €1,20 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="1.10">
+                <img src="/img/verd/0a.PNG" alt="zanahoria">
+                <div class="desc">Zanahoria Granel ECO</div>
+                <p>Precio: €1,10 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="1.30">
+                <img src="/img/verd/09.PNG" alt="calabaza">
+                <div class="desc">Calabaza cacahuete Granel ECO</div>
+                <p>Precio: €1,30 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="4.30">
+                <img src="/img/verd/90.PNG" alt="jengibre">
+                <div class="desc">Jengibre fresco Granel ECO </div>
+                <p>Precio: €4,30 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="2.80">
+                <img src="/img/verd/56.PNG" alt="remolacha">
+                <div class="desc">Remolacha Granel ECO </div>
+                <p>Precio: €2,80 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="2.50">
+                <img src="/img/verd/7.PNG" alt="Cebolla">
+                <div class="desc">Cebolla Roja Granel ECO</div>
+                <p>Precio: €2,80 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="2.80">
+                <img src="/img/verd/3a.PNG" alt="pimenton">
+                <div class="desc">Pimiento amarillo Granel ECO</div>
+                <p>Precio: €2,80 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="1.20">
+                <img src="/img/verd/1ra.PNG" alt="apio">
+                <div class="desc">Apio unidad 400g ECO</div>
+                <p>Precio: €1,20 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+        <!--===========================================================================  
+                                   GRUPO 4
+==============================================================================-->
+        <div class="separador" id="cuatro"> </div>
+
+        <div class="titulo">
+            <h1>Frutas y Bebidas</h1>
+        </div>
+
+
+
+        <div class="grupo3">
+
+
+
+
+            <div class="galeria" data-precio="5.20">
+                <img src="/img/fruta/8a.PNG" alt="aguacate">
+                <div class="desc">Aguacate Granel ECO</div>
+                <p>Precio: €5,20 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="4.50">
+                <img src="/img/fruta/1.PNG" alt="Frambuesa">
+                <div class="desc">Frambuesa bandeja 125g ECO</div>
+                <p>Precio: €4,50 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="4.50">
+                <img src="/img/fruta/2.PNG" alt="Kiwis">
+                <div class="desc">Kiwis Gold Granel ECO</div>
+                <p>Precio: €4,50 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="3.40">
+                <img src="/img/fruta/2ra.PNG" alt="Piña">
+                <div class="desc">Piña Ecologica</div>
+                <p>Precio: €3,40 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="3.40">
+                <img src="/img/fruta/3.PNG" alt="Mandarina">
+                <div class="desc">Mandarina Granel ECO</div>
+                <p>Precio: €3,40 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="3.80">
+                <img src="/img/fruta/4.PNG" alt="Pera">
+                <div class="desc">Pera Conference Granel ECO</div>
+                <p>Precio: €3,80 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="1.80">
+                <img src="/img/fruta/5.PNG" alt="Plátano">
+                <div class="desc">Plátano de Canarias Granel ECO</div>
+                <p>Precio: €3,80 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="1.20">
+                <img src="/img/fruta/5ra.PNG" alt="Naranja">
+                <div class="desc">Naranja zumo bolsa 3 kgs ECO</div>
+                <p>Precio: €1,20 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="4.50">
+                <img src="/img/fruta/6.PNG" alt="Papaya Granel ECO">
+                <div class="desc">Papaya Granel ECO</div>
+                <p>Precio: €4,50 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="5.50">
+                <img src="/img/fruta/7.PNG" alt="Pitahaya">
+                <div class="desc">Pitahaya amarilla PK ECO</div>
+                <p>Precio: €4,50 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="2.20">
+                <img src="/img/fruta/8.PNG" alt="Manzana">
+                <div class="desc">Manzana Story Granel ECO</div>
+                <p>Precio: €2,20 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="1.20">
+                <img src="/img/fruta/9.PNG" alt="jugo">
+                <div class="desc">Zumo de melocotón 1l ECO </div>
+                <p>Precio: €1,20 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="1.80">
+                <img src="/img/fruta/10.jpg" alt="Manzana">
+                <div class="desc">Manzana Granny Smith Granel ECO </div>
+                <p>Precio: €1,80 kg</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="1.60">
+                <img src="/img/fruta/ua.PNG" alt="jugo">
+                <div class="desc"> Zumo de Natanja </div>
+                <p>Precio: €1,60 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="1.20">
+                <img src="/img/fruta/10.PNG" alt="Horchata">
+                <div class="desc"> Horchata chufa 1l ECO </div>
+                <p>Precio: €1,20 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="1.20">
+                <img src="/img/fruta/12.PNG" alt="Zumo">
+                <div class="desc"> Zumo Multi 7 Frutas zana. 3x200ml ECO </div>
+                <p>Precio: €1,20 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="0.80">
+                <img src="/img/fruta/13.PNG" alt="agua">
+                <div class="desc"> Agua con gas 500ml </div>
+                <p>Precio: €0,80 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="20.80">
+                <img src="/img/fruta/14.PNG" alt="cava">
+                <div class="desc"> Pack cava essential 75cl ECO </div>
+                <p>Precio: €20,80</p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="16.99">
+                <img src="/img/fruta/15.PNG" alt="Cava">
+                <div class="desc"> Cava Brut Nature 75cl ECO </div>
+                <p>Precio: €16,99 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="galeria" data-precio="5.99">
+                <img src="/img/fruta/16.PNG" alt="Vino">
+                <div class="desc"> Vino blanco verdejo 75cl ECO </div>
+                <p>Precio: €5,99 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="14.99">
+                <img src="img/fruta/17.PNG" alt="Vino">
+                <div class="desc"> Vino Tinto Ramón Bilbao ECO </div>
+                <p>Precio: €14,99 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="3.99">
+                <img src="/img/fruta/19.PNG" alt="Vino Blanco">
+                <div class="desc"> Vino Blanco Sauvignon Caliza Blanco ECO </div>
+                <p>Precio: €3,99 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="7.99">
+                <img src="/img/fruta/18.PNG" alt="Vino">
+                <div class="desc">Vino Tinto +Natura - Bodegas Pinord ECO </div>
+                <p>Precio: €7,99 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="7.99">
+                <img src="/img/fruta/20.PNG" alt="vino rosa">
+                <div class="desc"> Vino rosado 75cl ECO </div>
+                <p>Precio: €7,99 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="7.99">
+                <img src="/img/fruta/21.PNG" alt="Vino">
+                <div class="desc"> Vino tinto Icones 75cl ECO </div>
+                <p>Precio: €7,99 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+        <!--===========================================================================  
+                                   GRUPO 5
+==============================================================================-->
+
+
+        <div class="separador" id="cinco"> </div>
+
+
+        <div class="titulo">
+            <h1>Limpieza</h1>
+        </div>
+
+
+
+        <div class="grupo4">
+
+
+            <div class="galeria" data-precio="3.49">
+                <img src="/img/limp/1.PNG" alt="Fregona">
+                <div class="desc"> Fregona bambu </div>
+                <p>Precio: €3,49 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="2.50">
+                <img src="/img/limp/2.PNG" alt="Estropajo"> 
+                <div class="desc"> Estropajo cobre 2un </div>
+                <p>Precio: €2,50 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="1.40">
+                <img src="/img/limp/3.PNG" alt="Papel">
+                <div class="desc"> Papel higiénico húmedo ECO</div>
+                <p>Precio: €1,40 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="4.40">
+                <a target="_blank" href="/img/limp/4.PNG">
+                    <img src="/img/limp/4.PNG" alt="Gel"> </a>
+                <div class="desc"> Gel wc lavanda 750ml ECO </div>
+                <p>Precio: €4,40 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="2.60">
+                <img src="/img/limp/5.PNG" alt="cítrico">
+                <div class="desc">Ácido cítrico 42u 500g </div>
+                <p>Precio: €2,60 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="1.20">
+                <img src="/img/limp/6.PNG" alt="bolsa">
+                <div class="desc"> Bolsa basura 10L ECO </div>
+                <p>Precio: €1,20 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="1.90">
+                <img src="/img/limp/7.PNG" alt="esponja">
+                <div class="desc"> Esponja estropajo 2ud </div>
+                <p>Precio: €1,90 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+            <div class="galeria" data-precio="2.90">
+                <img src="/img/limp/8.PNG" alt="Gel">
+                <div class="desc"> Gel WC 750ml ECO </div>
+                <p>Precio: €2,90 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+            <div class="galeria" data-precio="2.50">
+                <img src="/img/limp/9.PNG" alt="Papel">
+                <div class="desc">Papel de cocina 2u </div>
+                <p>Precio: €2,50 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>  
+ 
+                       
+            <div class="galeria" data-precio="1.90">
+                <img src="/img/limp/10.PNG" alt="Rollo">
+                <div class="desc"> Rollo gig papel multiu 1u </div>
+                <p>Precio: €1,90 </p>
+                <div class="controles-producto">
+                    <button type="button" class="btn-agregar">+</button>
+                    <span class="contador-producto">0</span>
+                    <button type="button" class="btn-eliminar">-</button>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <!---------------------------  pie de pagina -------------------->
+
+
+
+        <div class="separador"> </div>
+
+
+        <footer>
+
+            <div class="footer-contenedor">
+                <div class="redes">
+
+                    <ul>
+                        <h4>SIGUENOS</h4>
+                        <li> <img src="/icono/social.png" width="20" class="espacio"> <a href="#"
+                                target="_blank">Instagram</a>
+                        </li>
+                        <li><img src="/icono/tik.png" width="33" class="espacio"> <a href="#" target="_blank">TikTok</a>
+                        </li>
+                        <li><img src="/icono/twit.png" width="20" class="espacio">
+                            <a href="#" target="_blank">Twiter</a>
+                        </li>
+                        <li><img src="/icono/facebook.png" width="20" class="espacio"> <a href="#" target="_blank">
+                                Facebook</a> </li>
+                        <li><img src="/icono/you.png" width="22" class="espacio"> <a href="#"
+                                target="_blank">YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="info">
+
+                    <ul>
+                        <H4>USUARIOS</H4>
+                        <li>Mi cuenta</li>
+                        <li>Registrate</li>
+                        <li>Descuentos</li>
+                        <li>Promociones</li>
+                    </ul>
+                </div>
+
+
+                <div class="info2">
+
+                    <ul>
+                        <h4>COMPRAS ONLINE</H4>
+                        <li>Mis compras</li>
+                        <li>Gastos de envio</li>
+                        <li>Devoluciones</li>
+                        <li>Otros servicios</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pie">
+                <p>
+                    © 1992-2025 Campo Alegre S.A.
+                    Todos los
+                    derechos reservados.
+                </p>
+
+            </div>
+
+
+        </footer>
+
+
+        <script src="stock.js"></script>
+
+
+    </main>
+
+
+
+</body>
+
+</html>
